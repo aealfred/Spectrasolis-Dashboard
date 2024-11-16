@@ -10,7 +10,7 @@
 
 ## Related Links
 
-RSX 2024 Dashboard GitHub: https://github.com/CameronD35/RSX2024-Dashboard/blob/master/index.html
+RSX 2024 Dashboard GitHub: https://github.com/CameronD35/RSX2024-Dashboard/tree/master
 
 RockSatX: https://www.nasa.gov/wallops/stem/rocksatx/
 
