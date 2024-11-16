@@ -321,7 +321,7 @@ body{
 .subtitle{
     font-size: 15px;
     color: var(--secondaryColor);
-    letter-spacing: 15px;
+    letter-spacing: 7px;
     text-indent: 15px;
     font-weight: 700;
 }
