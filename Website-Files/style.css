@@ -797,33 +797,6 @@ body{
     height: 100%;
 }
 
-.capStatAltContainer{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: calc(15%*var(--numOfCapsules));
-    margin: 0 0 5% 0;
-    justify-content: space-between;
-
-}
-
-.capAltStatBox{
-    display: flex;
-    justify-content: space-between;
-    color: var(--mainColor);
-    align-items: center;
-    width: 100%;
-}
-
-.capAltStatText{
-    font-size: 3vh;
-}
-
-.capAltStatData{
-    font-size: 2vh;
-    font-weight: 500;
-}
-
 .atmosphericLayerTable{
     text-align: left;
     border-collapse: collapse;
