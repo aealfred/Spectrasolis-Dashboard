@@ -1,11 +1,11 @@
-# RSX2024-Dashboard
+#  " Spectrasolis-Dashboard "
 
-#### Dashboard for the 2024 RockSatX Project @ College of the Canyons Astronomy & Physics Club.
+#### Test Dashboard for the Spectrasolis project based on the 2024 RockSatX Dashboard by Cameron DeMartini @ College of the Canyons Astronomy & Physics Club.  
 
-#### *Updated 10/13/2024*
+#### *Updated 11/15/2024*
 
 
-## Dashboard Mockup
+## Original Dashboard Mockup (RSX 2024)
 ![DashboardDemoSS](https://github.com/user-attachments/assets/4d38e25f-ef3a-4f6f-b612-b301bb85f2bc)
 
 ## Related Links
