@@ -1,4 +1,3 @@
-/* styles.css */
 
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -8,14 +7,12 @@ body {
     padding: 0;
 }
 
-/* Main container setup */
 #main-container {
     display: flex;
     flex-direction: row;
     height: 100vh;
 }
 
-/* Left side styling */
 #left-side {
     flex: 3;
     padding: 20px;
@@ -48,10 +45,9 @@ h2 {
 
 #sensor-chart, #altitude-chart {
     width: 100%;
-    height: 300px; /* Reduced height to fit on the screen */
+    height: 300px; 
 }
 
-/* Right side styling */
 #right-side {
     flex: 1;
     background-color: #222;
@@ -61,7 +57,6 @@ h2 {
     padding: 20px;
 }
 
-/* Text Box Styling */
 #text-box {
     text-align: center;
     
@@ -72,18 +67,15 @@ h2 {
     margin: 10px 0;
 }
 
-/* Mission Log Styling */
 #mission-log {
     flex-grow: 1;
     overflow-y: auto;
     background-color: #333;
     font-size: 15px;
     margin-top: 20px;
- 
-    height: 200px; /* Adjusted to make the mission log bar smaller */
+    height: 200px; 
 }
 
-/* Credits Section Styling */
 #credits {
     position: absolute;
     bottom: 10px;
