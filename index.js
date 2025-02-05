@@ -1,22 +1,10 @@
-// script.js
-
-/** 
- * Function to display photodiode sensor data
- * Replace the simulated data with actual sensor data fetching logic.
- */
 function displaySensorData(data) {
     document.getElementById('sensor-data').textContent = `Photodiode Sensor Value: ${data}`;
 }
 
-/** 
- * Initialize arrays to store sensor and altitude data for the charts
- */
 let sensorDataArray = [];
 let altitudeDataArray = [];
 
-/** 
- * Function to update the photodiode sensor chart with new data
- */
 function updateSensorChart(data) {
     // Append new data point
     sensorDataArray.push(data);
@@ -34,7 +22,6 @@ function updateSensorChart(data) {
     // Remove any existing SVG content
     d3.select("#sensor-chart").selectAll("*").remove();
 
-    // Create SVG
     const svg = d3.select("#sensor-chart")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -73,14 +60,12 @@ function updateSensorChart(data) {
         .call(d3.axisLeft(y).ticks(5));
 }
 
-/** 
- * Function to update the altitude chart with new data
- */
+
 function updateAltitudeChart(data) {
     // Append new data point
     altitudeDataArray.push(data);
 
-    // Keep only the last 50 data points
+    // Keep only last 50 data points
     if (altitudeDataArray.length > 50) {
         altitudeDataArray.shift();
     }
@@ -149,10 +134,6 @@ function updateAltitudeChart(data) {
         .text("Stratosphere (50 km)");
 }
 
-/** 
- * Simulate fetching sensor data
- * Replace this function with actual data retrieval from your sensor.
- */
 function fetchSensorData() {
     // Simulated data for demonstration purposes
     const simulatedSensorData = parseFloat((Math.random() * 100).toFixed(2));
@@ -164,9 +145,6 @@ function fetchSensorData() {
     updateAltitudeChart(simulatedAltitudeData);
 }
 
-/** 
- * Update Mission Log
- */
 let missionLogEntries = [];
 let missionLogIndex = 0;
 
