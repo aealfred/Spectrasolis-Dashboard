@@ -44,7 +44,7 @@ h2 {
 }
 
 #sensor-chart, #altitude-chart {
-    width: 75%;
+    width: 100%;
     height: 150px; 
 }
 
